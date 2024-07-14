@@ -20,7 +20,7 @@ const HomePage = () => {
         <div>
             <div className='root-container'>
                 <div className='name-box-container'>
-                <div style={{height: "50px"}} ></div>
+                <div style={{height: "70px"}} ></div>
                     <div className='middle-row'>
                     <NavBar/>
                         <div>
