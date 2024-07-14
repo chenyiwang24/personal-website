@@ -1,0 +1,55 @@
+.app {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Ensure app takes up at least the viewport height */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.content {
+  padding: 20px;
+  background-color: #f0f0f0;
+  z-index: 1; /* Ensure content is behind navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+  z-index: 1000; /* Ensure navbar is on top of content */
+}
+
+.scrolled {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow applied when scrolled */
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align items horizontally to center */
+  align-items: center; /* Align items vertically to center */
+  height: 100%;
+  margin-right: 2vw;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #42423e;
+  text-decoration: none;
+  padding: 10px;
+  transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+  font-weight: normal; /* Default font weight */
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}

@@ -13,6 +13,7 @@ import email from './../Assets/Icons/emailIcon.png'
 import emailHover from './../Assets/Icons/emailHover.png'
 
 import SocialIcon from '../Components/SocialIcon';
+import NavBar from '../Components/NavBar';
 
 const HomePage = () => {
     return (
@@ -20,6 +21,7 @@ const HomePage = () => {
             <div className='root-container'>
                 <div className='name-box-container'>
                     <div className='middle-row'>
+                    <NavBar/>
                         <div>
                             <h1 className='name-text'>Chenyi<br/>Wang</h1>
                             <h2 className='subtitle-text'>Software Engineer</h2>
@@ -34,6 +36,11 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+            <h1>AWESOME!!!</h1>
+            <h1>AWESOME!!!</h1>
+            <h1>AWESOME!!!</h1>
+            <h1>AWESOME!!!</h1>
+            <h1>AWESOME!!!</h1>
         </div>
     );
 };
