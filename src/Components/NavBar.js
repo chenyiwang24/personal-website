@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './NavBar.css';
+import logo from './../Assets/Logo/mainLogo.png'
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,6 +23,7 @@ const NavBar = () => {
   return (
     <nav className={`navbar ${scrollPosition > 0 ? 'scrolled' : ''}`}>
       <ul className="nav-menu">
+        <img src={logo} alt="Logo" className='logo-image'></img>
         <li className="nav-item">
           <a href="#" className="nav-link">Home</a>
         </li>

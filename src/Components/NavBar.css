@@ -20,11 +20,20 @@
   background-color: white;
   padding: 10px 20px;
   transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+  transition: background-color 0.3s ease;
   z-index: 1000; /* Ensure navbar is on top of content */
+}
+
+.logo-image {
+  max-width: 100px; /* Adjust maximum width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 5px;
+  margin-right: auto; /* Pushes the logo to the beginning */
 }
 
 .scrolled {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow applied when scrolled */
+  background-color: #faf8f6;
 }
 
 .nav-menu {
@@ -51,5 +60,5 @@
 }
 
 .nav-link:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
