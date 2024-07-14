@@ -44,7 +44,7 @@
   justify-content: flex-end; /* Align items horizontally to center */
   align-items: center; /* Align items vertically to center */
   height: 100%;
-  margin-right: 3vw;
+  margin-right: 20px;
 }
 .nav-item {
     margin-right: 10px;
@@ -54,6 +54,7 @@
   color: #42423e;
   text-decoration: none;
   padding: 1vw;
+  font-size: max(1vw, 8pt);
   transition: font-weight 0.3s ease; /* Smooth transition for font weight */
   font-weight: normal; /* Default font weight */
 }
