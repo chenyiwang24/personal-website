@@ -8,7 +8,7 @@ const NavBar = () => {
   // Add scroll event listener
   useEffect(() => {
     const handleScroll = () => {
-      const position = window.pageYOffset;
+      const position = window.scrollY;
       setScrollPosition(position);
     };
 
@@ -21,17 +21,17 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${scrollPosition > 0 ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrollPosition > 100 ? 'scrolled' : ''}`}>
       <ul className="nav-menu">
         <img src={logo} alt="Logo" className='logo-image'></img>
         <li className="nav-item">
           <a href="#" className="nav-link">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">About</a>
+          <a href="#" className="nav-link">About Me</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Services</a>
+          <a href="#" className="nav-link">Projects</a>
         </li>
         <li className="nav-item">
           <a href="#" className="nav-link">Contact</a>

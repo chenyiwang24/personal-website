@@ -19,8 +19,7 @@
   height: 40px;
   background-color: white;
   padding: 10px 20px;
-  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
-  transition: background-color 0.3s ease;
+  transition: box-shadow 0.5s ease; /* Smooth transition for box shadow */
   z-index: 1000; /* Ensure navbar is on top of content */
 }
 
@@ -33,7 +32,6 @@
 
 .scrolled {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow applied when scrolled */
-  background-color: #faf8f6;
 }
 
 .nav-menu {
@@ -55,8 +53,8 @@
   text-decoration: none;
   padding: 1vw;
   font-size: max(1vw, 8pt);
-  transition: font-weight 0.3s ease; /* Smooth transition for font weight */
-  font-weight: normal; /* Default font weight */
+  font-weight: normal;
+  transition: font-weight 0.3s ease;
 }
 
 .nav-link:hover {
