@@ -25,16 +25,16 @@ const NavBar = () => {
       <ul className="nav-menu">
         <img src={logo} alt="Logo" className='logo-image'></img>
         <li className="nav-item">
-          <a href="#" className="nav-link">Home</a>
+          <a href="/" className="nav-link">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">About Me</a>
+          <a href="/" className="nav-link">About Me</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Projects</a>
+          <a href="/" className="nav-link">Projects</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Contact</a>
+          <a href="/" className="nav-link">Contact</a>
         </li>
       </ul>
     </nav>
