@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.top-nav {
+  background-color: #333; /* Set nav bar background color */
+  padding: 10px;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.top-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-nav li a:hover {
+  color: #ddd; /* Change color on hover */
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshot {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #000000; /* Set circle background color */
+  margin-top: -20%; /* Adjust margin as needed */
+  margin-left: -20%;
+}
+
+.left-content {
+  float: left; /* Float the content to the left */
+  margin-right: 20px; /* Adjust margin as needed */
+  color: #000000;
+}

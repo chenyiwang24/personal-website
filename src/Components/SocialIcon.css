@@ -1,0 +1,8 @@
+.icon {
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px) scale(1.1)
+  }
