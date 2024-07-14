@@ -12,7 +12,7 @@ const SocialIcon = ({ iconDefault, iconHover, link, size, margin }) => {
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img
           className="icon"
-          style={{ width: size, marginLeft: margin }}
+          style={{ height: size, marginLeft: margin }}
           src={isHovered ? hoverIcon : defaultIcon}
           alt="Icon"
           onMouseEnter={() => setIsHovered(true)}

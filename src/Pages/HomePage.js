@@ -24,10 +24,10 @@ const HomePage = () => {
                             <h1 className='name-text'>Chenyi<br/>Wang</h1>
                             <h2 className='subtitle-text'>Software Engineer</h2>
                             <div className='icon-row'>
-                                <SocialIcon iconDefault={linkedin} iconHover={linkedinHover} link="https://www.linkedin.com/in/chenyiwang24/" size="2vw" margin="0px"/>
-                                <SocialIcon iconDefault={github} iconHover={githubHover} link="https://github.com/chenyiwang24" size="1.8vw" margin="0px"/>
-                                <SocialIcon iconDefault={leetcode} iconHover={leetcodeHover} link="https://leetcode.com/u/chenyiwang/" size="1.5vw" margin="4px"/>
-                                <SocialIcon iconDefault={email} iconHover={emailHover} link="mailto:chenyi@utexas.edu" size="1.8vw" margin="2px"/>
+                                <SocialIcon iconDefault={linkedin} iconHover={linkedinHover} link="https://www.linkedin.com/in/chenyiwang24/" size="2.2vw" margin="0.0vw"/>
+                                <SocialIcon iconDefault={github} iconHover={githubHover} link="https://github.com/chenyiwang24" size="2vw" margin="0.0vw"/>
+                                <SocialIcon iconDefault={leetcode} iconHover={leetcodeHover} link="https://leetcode.com/u/chenyiwang/" size="1.9vw" margin="0.2vw"/>
+                                <SocialIcon iconDefault={email} iconHover={emailHover} link="mailto:chenyi@utexas.edu" size="1.9vw" margin="0.0vw"/>
                             </div>
                         </div>
                         <img className='head-shot' src={headShot} alt='Chenyi Wang Headshot'></img>
