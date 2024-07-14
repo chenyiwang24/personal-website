@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.f855e6bc.css",
-    "main.js": "/personal-website/static/js/main.3acd11dd.js",
+    "main.css": "/personal-website/static/css/main.250c6324.css",
+    "main.js": "/personal-website/static/js/main.a7654701.js",
     "static/js/453.bb828c5d.chunk.js": "/personal-website/static/js/453.bb828c5d.chunk.js",
-    "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/headshot.png": "/personal-website/static/media/headshot.1d0acfc393862fa22f09.png",
+    "static/media/emailIcon.png": "/personal-website/static/media/emailIcon.f249f0dca6e3cd9d0070.png",
+    "static/media/githubIcon.png": "/personal-website/static/media/githubIcon.765355056352aee3fcb1.png",
+    "static/media/emailHover.png": "/personal-website/static/media/emailHover.ad888dd56f60fb55436c.png",
+    "static/media/leetcodeIcon.png": "/personal-website/static/media/leetcodeIcon.e36f8bcf413b822c2837.png",
+    "static/media/githubHover.png": "/personal-website/static/media/githubHover.8defcb7943c1556b96f3.png",
+    "static/media/linkedinHover.png": "/personal-website/static/media/linkedinHover.6a9661afcb2554d64aec.png",
+    "static/media/linkedinIcon.png": "/personal-website/static/media/linkedinIcon.164b584a840c0e6bb822.png",
     "index.html": "/personal-website/index.html",
-    "main.f855e6bc.css.map": "/personal-website/static/css/main.f855e6bc.css.map",
-    "main.3acd11dd.js.map": "/personal-website/static/js/main.3acd11dd.js.map",
+    "main.250c6324.css.map": "/personal-website/static/css/main.250c6324.css.map",
+    "main.a7654701.js.map": "/personal-website/static/js/main.a7654701.js.map",
     "453.bb828c5d.chunk.js.map": "/personal-website/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3acd11dd.js"
+    "static/css/main.250c6324.css",
+    "static/js/main.a7654701.js"
   ]
 }
