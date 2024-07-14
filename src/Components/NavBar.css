@@ -44,17 +44,16 @@
   justify-content: flex-end; /* Align items horizontally to center */
   align-items: center; /* Align items vertically to center */
   height: 100%;
-  margin-right: 2vw;
+  margin-right: 3vw;
 }
-
 .nav-item {
-  margin-right: 10px;
-}
+    margin-right: 10px;
+  }
 
 .nav-link {
   color: #42423e;
   text-decoration: none;
-  padding: 10px;
+  padding: 1vw;
   transition: font-weight 0.3s ease; /* Smooth transition for font weight */
   font-weight: normal; /* Default font weight */
 }
