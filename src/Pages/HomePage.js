@@ -22,6 +22,7 @@ const HomePage = () => {
                     <div className='middle-row'>
                         <div>
                             <h1 className='name-text'>Chenyi<br/>Wang</h1>
+                            <h2 className='subtitle-text'>Software Engineer</h2>
                             <div className='icon-row'>
                                 <SocialIcon iconDefault={linkedin} iconHover={linkedinHover} link="https://www.linkedin.com/in/chenyiwang24/" size="30px" margin="0px"/>
                                 <SocialIcon iconDefault={github} iconHover={githubHover} link="https://github.com/chenyiwang24" size="25px" margin="0px"/>
