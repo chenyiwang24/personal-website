@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
-import "./HomePage.css";
+import "../styles/HomePage.css";
 
-import headShot from "./../Assets/Pictures/headshot.png";
+import headShot from "./../assets/Pictures/headshot.png";
 
-import github from "./../Assets/Icons/githubIcon.png";
-import githubHover from "./../Assets/Icons/githubHover.png";
-import linkedin from "./../Assets/Icons/linkedinIcon.png";
-import linkedinHover from "./../Assets/Icons/linkedinHover.png";
-import leetcode from "./../Assets/Icons/leetcodeIcon.png";
-import leetcodeHover from "./../Assets/Icons/leetcodeHover.png";
-import email from "./../Assets/Icons/emailIcon.png";
-import emailHover from "./../Assets/Icons/emailHover.png";
+import github from "./../assets/Icons/githubIcon.png";
+import githubHover from "./../assets/Icons/githubHover.png";
+import linkedin from "./../assets/Icons/linkedinIcon.png";
+import linkedinHover from "./../assets/Icons/linkedinHover.png";
+import leetcode from "./../assets/Icons/leetcodeIcon.png";
+import leetcodeHover from "./../assets/Icons/leetcodeHover.png";
+import email from "./../assets/Icons/emailIcon.png";
+import emailHover from "./../assets/Icons/emailHover.png";
 
-import SocialIcon from "../Components/SocialIcon";
-import NavBar from "../Components/NavBar";
+import SocialIcon from "../components/SocialIcon";
+import NavBar from "../components/NavBar";
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false);

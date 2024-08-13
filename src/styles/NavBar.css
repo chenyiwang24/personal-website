@@ -52,7 +52,7 @@
   color: #42423e;
   text-decoration: none;
   padding: 1vw;
-  font-size: max(1vw, 8pt);
+  font-size: min(2vw, 12pt);
   font-weight: normal;
   transition: font-weight 0.3s ease;
 }

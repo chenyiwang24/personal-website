@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './NavBar.css';
-import logo from './../Assets/Logos/mainLogo.png'
+import '../styles/NavBar.css';
+import logo from './../assets/Logos/mainLogo.png'
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SocialIcon.css";
+import "../styles/SocialIcon.css";
 
 const SocialIcon = ({ iconDefault, iconHover, link, size, margin }) => {
   const [isHovered, setIsHovered] = useState(false);
