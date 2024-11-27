@@ -3,7 +3,6 @@ import "../styles/SocialIcon.css";
 
 const SocialIcon = ({ iconDefault, iconHover, link, size, margin }) => {
   const [isHovered, setIsHovered] = useState(false);
-
 	const defaultIcon = iconDefault
 	const hoverIcon = iconHover
 

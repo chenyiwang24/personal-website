@@ -1,0 +1,69 @@
+/* Main container */
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: "SF Pro", sans-serif;
+}
+
+/* Title styles */
+.aboutme-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000000;
+  opacity: 0; /* Hidden by default */
+  transform: translateY(20px); /* Initial offset */
+  transition: all 0.8s ease-in-out;
+}
+
+.aboutme-title.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Slide into place */
+}
+
+.aboutme-title.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Sections container */
+.aboutme-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Individual section */
+.aboutme-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.aboutme-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.aboutme-section.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.aboutme-section-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.aboutme-section-content {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+}

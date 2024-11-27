@@ -72,3 +72,12 @@
   animation: fadeOut 0.5s ease-in-out;
   opacity: 0;
 }
+
+/* Horizontal divider style */
+.divider {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 3rem auto; /* Add space around the line */
+  border: none;
+  border-top: 2px solid #ccc; /* Adjust color and thickness */
+  opacity: 0.7; /* Optional: Makes it less prominent */
+}

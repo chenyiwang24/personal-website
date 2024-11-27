@@ -25,6 +25,7 @@
 
 .logo-image {
   max-width: 100px; /* Adjust maximum width of the logo */
+  cursor: pointer; /* Show a pointer cursor to indicate it's clickable */
   height: auto; /* Maintain aspect ratio */
   margin-top: 5px;
   margin-right: auto; /* Pushes the logo to the beginning */
@@ -45,8 +46,8 @@
   margin-right: 20px;
 }
 .nav-item {
-    margin-right: 10px;
-  }
+  margin-right: 10px;
+}
 
 .nav-link {
   color: #42423e;

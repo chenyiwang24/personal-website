@@ -14,6 +14,8 @@ import emailHover from "./../assets/Icons/emailHover.png";
 
 import SocialIcon from "../components/SocialIcon";
 import NavBar from "../components/NavBar";
+import AboutMe from "../components/AboutMe";
+import Timeline from "../components/Timeline";
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -42,7 +44,7 @@ const HomePage = () => {
         className={`overlay ${isLoaded ? "fade-out" : ""}`}
         style={{ zIndex: overlayZIndex }}
       ></div>
-      <div className="root-container">
+      <div id="home-top" className="root-container">
         <div className="name-box-container">
           <div style={{ height: "70px" }}></div>
           <div className="middle-row">
@@ -93,11 +95,9 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <h1>AWESOME!!!</h1>
-      <h1>AWESOME!!!</h1>
-      <h1>AWESOME!!!</h1>
-      <h1>AWESOME!!!</h1>
-      <h1>AWESOME!!!</h1>
+      <AboutMe />
+      <hr className="divider" />
+      <Timeline />
     </div>
   );
 };

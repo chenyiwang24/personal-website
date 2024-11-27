@@ -1,0 +1,114 @@
+/* Main timeline container */
+.timeline-container {
+  padding: 2rem 0;
+  color: #333;
+  font-family: "SF Pro", sans-serif;
+  max-width: 800px;
+  margin: -2.5rem auto;
+  position: relative;
+}
+
+/* Title of the timeline */
+.timeline-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #000000;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Initial offset */
+  transition: all 0.8s ease-in-out;
+}
+
+.timeline-title.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Slide into place */
+}
+
+.timeline-title.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Vertical timeline line */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px; /* Line position */
+  width: 3px; /* Width of the timeline line */
+  height: 100%;
+  opacity: 0.7;
+  background-color: #ccc;
+  z-index: 1;
+}
+
+/* Each timeline event */
+.timeline-event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-left: 40px; /* Space between the line and content */
+  position: relative;
+  opacity: 0; /* Initial hidden state for dynamic load */
+  transform: translateY(20px); /* Add slight movement for load animation */
+  transition: all 0.8s ease-in-out; /* Smooth animation */
+}
+
+.timeline-event.visible {
+  opacity: 1; /* Visible when loaded */
+  transform: translateY(0); /* Move into place */
+}
+
+/* Image container */
+.timeline-image-container {
+  flex: 0 0 80px;
+  margin-right: 20px;
+}
+
+.timeline-event-image {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+  border-radius: 20%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Text container */
+.timeline-text-container {
+  flex: 1;
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/* Date styling */
+.timeline-date {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Event title styling */
+.timeline-event-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+/* Event description styling */
+.timeline-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.outside-container {
+  justify-content: center;
+}

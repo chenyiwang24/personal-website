@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import '../styles/NavBar.css';
-import logo from './../assets/Logos/mainLogo.png'
+import React, { useState, useEffect } from "react";
+import "../styles/NavBar.css";
+import logo from "./../assets/Logos/mainLogo.png";
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -12,33 +12,46 @@ const NavBar = () => {
       setScrollPosition(position);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the listener
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <nav className={`navbar ${scrollPosition > 100 ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrollPosition > 100 ? "scrolled" : ""}`}>
       <ul className="nav-menu">
-        <img src={logo} alt="Logo" className='logo-image'></img>
+        <img
+          src={logo}
+          alt="Logo"
+          className="logo-image"
+          onClick={() => {
+            const element = document.getElementById("home-top");
+            if (element) {
+              element.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        />
         <li className="nav-item">
-          <a href="/" className="nav-link">Home</a>
+          <a href="#about-me" className="nav-link">
+            About Me
+          </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">About Me</a>
+          <a href="#experience" className="nav-link">
+            Experience
+          </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">Projects</a>
-        </li>
-        <li className="nav-item">
-          <a href="/" className="nav-link">Contact</a>
+          <a href="#about-me-section" className="nav-link">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
   );
-}
+};
 
 export default NavBar;
