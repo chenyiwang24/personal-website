@@ -33,7 +33,7 @@ const Timeline = () => {
       description:
         "Weekly seminars and academic/career guidance for cohort of ~25 first-year CS students",
       image: require("./../assets/Logos/utcs.png"),
-    },
+    }
   ];
 
   return (
