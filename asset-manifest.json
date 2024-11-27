@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.457d6019.css",
-    "main.js": "/static/js/main.1ee97fca.js",
+    "main.css": "/static/css/main.f190e443.css",
+    "main.js": "/static/js/main.c2cf0ae3.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/headshot.png": "/static/media/headshot.1d0acfc393862fa22f09.png",
+    "static/media/utcs.png": "/static/media/utcs.aaa979ea4c14e3aa233d.png",
+    "static/media/capitalOne.png": "/static/media/capitalOne.45166d0f1d456d88ff61.png",
+    "static/media/paycom.png": "/static/media/paycom.c0a93476e9f914373edf.png",
+    "static/media/ambassadors.png": "/static/media/ambassadors.0beab681cd955d576f61.png",
     "static/media/emailIcon.png": "/static/media/emailIcon.f249f0dca6e3cd9d0070.png",
     "static/media/githubIcon.png": "/static/media/githubIcon.765355056352aee3fcb1.png",
     "static/media/emailHover.png": "/static/media/emailHover.ad888dd56f60fb55436c.png",
@@ -13,12 +17,12 @@
     "static/media/linkedinHover.png": "/static/media/linkedinHover.6a9661afcb2554d64aec.png",
     "static/media/linkedinIcon.png": "/static/media/linkedinIcon.164b584a840c0e6bb822.png",
     "index.html": "/index.html",
-    "main.457d6019.css.map": "/static/css/main.457d6019.css.map",
-    "main.1ee97fca.js.map": "/static/js/main.1ee97fca.js.map",
+    "main.f190e443.css.map": "/static/css/main.f190e443.css.map",
+    "main.c2cf0ae3.js.map": "/static/js/main.c2cf0ae3.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.457d6019.css",
-    "static/js/main.1ee97fca.js"
+    "static/css/main.f190e443.css",
+    "static/js/main.c2cf0ae3.js"
   ]
 }
