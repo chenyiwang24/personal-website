@@ -12,12 +12,14 @@ const Timeline = () => {
       date: "June 2025 - Present",
       title: "Incoming Software Engineer Intern",
       description: "Incoming Software Engineer Intern (TIP) - Summer 2025",
+      company: "Capital One",
       image: require("./../assets/Logos/capitalOne.png"),
     },
     {
       date: "May 2024 - August 2024",
       title: "Software Engineer Intern",
       description: "Full-Stack iOS Development",
+      company: "Paycom",
       image: require("./../assets/Logos/paycom.png"),
     },
     {
@@ -25,6 +27,7 @@ const Timeline = () => {
       title: "Program Ambassador",
       description:
         "Engaged with prospective students as a representative of UTCS",
+      company: "UT Austin, Department of Computer Science",
       image: require("./../assets/Logos/ambassadors.png"),
     },
     {
@@ -32,8 +35,9 @@ const Timeline = () => {
       title: "Pod Mentor",
       description:
         "Weekly seminars and academic/career guidance for cohort of ~25 first-year CS students",
+      company: "UT Austin, Department of Computer Science",
       image: require("./../assets/Logos/utcs.png"),
-    }
+    },
   ];
 
   return (
@@ -78,6 +82,8 @@ const TimelineEvent = ({ event }) => {
         <div className="timeline-text-container">
           <div className="timeline-date">{event.date}</div>
           <h2 className="timeline-event-title">{event.title}</h2>
+          <p className="timeline-company">{event.company}</p>{" "}
+          {/* New company field */}
           <p className="timeline-description">{event.description}</p>
         </div>
       </div>

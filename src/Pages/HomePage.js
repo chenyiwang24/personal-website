@@ -76,14 +76,14 @@ const HomePage = () => {
                   iconHover={leetcodeHover}
                   link="https://leetcode.com/u/chenyiwang/"
                   size="1.9vw"
-                  margin="0.2vw"
+                  margin="0.5vw"
                 />
                 <SocialIcon
                   iconDefault={email}
                   iconHover={emailHover}
                   link="mailto:chenyi@utexas.edu"
-                  size="1.9vw"
-                  margin="0.0vw"
+                  size="1.8vw"
+                  margin="0.2vw"
                 />
               </div>
             </div>

@@ -90,10 +90,18 @@
 
 /* Date styling */
 .timeline-date {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #333;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
+  margin-bottom: -0.5rem;
+}
+
+/* Company name styling */
+.timeline-company {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem; /* Space between company name and description */
 }
 
 /* Event title styling */
