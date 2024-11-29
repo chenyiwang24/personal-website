@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { useInView } from "react-intersection-observer";
 import "../styles/Carousel.css";
 import amelie from "../assets/Seniors/amelie.jpg";
@@ -22,16 +22,11 @@ const Carousel = () => {
     triggerOnce: true, // Animate only once
   });
 
-  const images = [
-    julia,
-    amelie,
-    hookem,
-    amelie2,
-    hookem2,
-    amelie3,
-    kara,
-    amelie4,
-  ];
+  const images = useMemo(
+    () => [julia, amelie, hookem, amelie2, hookem2, amelie3, kara, amelie4],
+    []
+  );
+
   const extendedImages = [...images, ...images]; // Duplicate for seamless scrolling
 
   const handleNext = useCallback(() => {
@@ -110,7 +105,7 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-      <hr style={{marginTop: "5rem"}} className="divider" />
+      <hr style={{ marginTop: "5rem" }} className="divider" />
       <p className="description">
         Based in Austin, TX, I specialize in senior graduation portraits,
         professional headshots, and event photography, delivering high-quality
