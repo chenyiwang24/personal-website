@@ -94,3 +94,12 @@
     margin: 3rem 2rem; /* Add even more left and right space on smaller screens */
   }
 }
+
+.copyright {
+  font-family: "SF Pro", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #666;
+}

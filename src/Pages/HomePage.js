@@ -99,18 +99,7 @@ const HomePage = () => {
       <AboutMe />
       <Timeline />
       <Carousel />
-      <p
-        style={{
-          fontFamily: "SF Pro, san-serif",
-          fontSize: "0.8rem",
-          textAlign: "center",
-          marginTop: "2rem",
-          marginBottom: "1rem",
-          color: "#666",
-        }}
-      >
-        © 2024 by Chenyi Wang
-      </p>
+      <p className="copyright">© 2024 by Chenyi Wang</p>
     </div>
   );
 };

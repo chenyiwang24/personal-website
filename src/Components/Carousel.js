@@ -78,6 +78,7 @@ const Carousel = () => {
       <div>
         <p
           ref={titleRef}
+          style={{ fontFamily: "SF Pro", fontWeight: "400" }}
           className={`grad-portfolio-title ${
             titleInView ? "visible" : "hidden"
           }`}
