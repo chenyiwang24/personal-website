@@ -1,0 +1,141 @@
+.grad-portfolio-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 1rem;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Start slightly shifted down */
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out; /* Smooth animation */
+}
+
+.grad-portfolio-container.fade-in {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move into place */
+}
+
+.grad-portfolio-container.fade-out {
+  opacity: 0; /* Hidden state */
+  transform: translateY(20px); /* Keep slightly shifted */
+}
+
+.grad-portfolio-title {
+  font-family: "SF Pro", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+  color: #000000;
+}
+
+.photo-carousel div {
+  padding: 0 15px; /* Add horizontal space between images */
+}
+
+.photo-carousel img {
+  width: auto; /* Let the width adjust based on the aspect ratio */
+  max-height: 450px; /* Keep a consistent height for the carousel */
+  object-fit: contain; /* Preserve the aspect ratio without cropping */
+  border-radius: 8px; /* Optional: Keeps the rounded effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  margin: 0 auto; /* Center align images within the slide */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+  margin-bottom: -13rem;
+  border: none; /* Ensures no border by default */
+}
+
+.photo-carousel img:hover {
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.photo-carousel img:active,
+.photo-carousel img:focus {
+  box-shadow: none; /* Remove shadow on click or focus */
+  outline: none !important; /* Ensure no focus outline */
+  border: none !important; /* Completely remove any border */
+  transform: scale(1); /* Disable zoom effect */
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 900px; /* Align with your carousel's width */
+  margin: 0 auto;
+  overflow: hidden; /* Ensure the shadow is constrained within the wrapper */
+}
+
+.carousel-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  ); /* Left shadow */
+  z-index: 1;
+}
+
+.carousel-shadow.right {
+  right: 0;
+  left: auto;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  ); /* Right shadow */
+}
+
+.photo-carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 0; /* Ensure the shadows are above the carousel */
+  height: auto; /* Automatically adjust height to fit images */
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+  .grad-portfolio-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .grad-portfolio-title {
+    font-size: 2rem; /* Slightly smaller title for tablets */
+  }
+
+  .photo-carousel img {
+    max-height: 350px; /* Adjust image size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .grad-portfolio-container {
+    padding: 1rem; /* Reduce padding for mobile */
+  }
+
+  .grad-portfolio-title {
+    font-size: 1.8rem; /* Smaller title for mobile */
+    margin-bottom: 2rem; /* Adjust spacing */
+  }
+
+  .photo-carousel img {
+    max-height: 300px; /* Smaller images for mobile */
+  }
+
+  .carousel-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  }
+
+  .photo-carousel {
+    display: flex; /* Horizontal layout for smaller screens */
+    gap: 10px; /* Add spacing between slides */
+  }
+}

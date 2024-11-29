@@ -16,6 +16,7 @@ import SocialIcon from "../components/SocialIcon";
 import NavBar from "../components/NavBar";
 import AboutMe from "../components/AboutMe";
 import Timeline from "../components/Timeline";
+import Carousel from "../components/Carousel";
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -96,8 +97,20 @@ const HomePage = () => {
         </div>
       </div>
       <AboutMe />
-      <hr className="divider" />
       <Timeline />
+      <Carousel />
+      <p
+        style={{
+          fontFamily: "SF Pro, san-serif",
+          fontSize: "0.8rem",
+          textAlign: "center",
+          marginTop: "2rem",
+          marginBottom: "1rem",
+          color: "#666",
+        }}
+      >
+        © 2024 by Chenyi Wang
+      </p>
     </div>
   );
 };

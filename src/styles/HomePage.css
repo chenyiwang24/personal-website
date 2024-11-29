@@ -81,3 +81,16 @@
   border-top: 2px solid #ccc; /* Adjust color and thickness */
   opacity: 0.7; /* Optional: Makes it less prominent */
 }
+
+/* Adjustments for mobile */
+@media (max-width: 768px) {
+  .divider {
+    margin: 3rem 1rem; /* Add left and right space on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .divider {
+    margin: 3rem 2rem; /* Add even more left and right space on smaller screens */
+  }
+}

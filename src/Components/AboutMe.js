@@ -30,7 +30,7 @@ const AboutMe = () => {
 
   const sections = [
     {
-      title: "Hi, I’m Chenyi Wang!",
+      title: "Hi, I’m Chenyi!",
       content: `I am a third-year Computer Science student at the
                 University of Texas at Austin, with a passion for software
                 engineering, problem-solving, and lifelong learning. I thrive on
@@ -69,6 +69,10 @@ const AboutMeSection = ({ section }) => {
     >
       <h2 className="aboutme-section-title">{section.title}</h2>
       <p className="aboutme-section-content">{section.content}</p>
+      <hr
+        style={{ marginTop: "5rem", marginBottom: "1rem" }}
+        className="divider"
+      />
     </div>
   );
 };

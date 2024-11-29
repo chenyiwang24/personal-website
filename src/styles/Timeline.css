@@ -5,6 +5,7 @@
   font-family: "SF Pro", sans-serif;
   max-width: 800px;
   margin: -2.5rem auto;
+  margin-bottom: -4rem;
   position: relative;
 }
 
@@ -119,4 +120,5 @@
 
 .outside-container {
   justify-content: center;
+  margin-bottom: -1rem;
 }

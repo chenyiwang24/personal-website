@@ -63,11 +63,11 @@ const NavBar = () => {
         </li>
         <li className="nav-item">
           <a
-            href="#about-me-section"
+            href="senior-portfolio"
             className="nav-link"
-            onClick={(e) => handleNavClick(e, "about-me-section")}
+            onClick={(e) => handleNavClick(e, "senior-portfolio")}
           >
-            Contact
+            Senior Portfolio
           </a>
         </li>
       </ul>
