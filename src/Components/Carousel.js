@@ -18,7 +18,7 @@ const Carousel = () => {
   const scrollPercentage = isMobile ? 50 : 33.333; // Adjust scroll percentage
 
   const { ref: titleRef, inView: titleInView } = useInView({
-    threshold: 0.1, // Trigger when 10% of the title is visible
+    threshold: 0.2, // Trigger when 20% of the title is visible
     triggerOnce: true, // Animate only once
   });
 
@@ -78,7 +78,6 @@ const Carousel = () => {
       <div>
         <p
           ref={titleRef}
-          style={{ fontFamily: "SF Pro", fontWeight: "400" }}
           className={`grad-portfolio-title ${
             titleInView ? "visible" : "hidden"
           }`}
