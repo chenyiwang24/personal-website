@@ -99,7 +99,7 @@ const HomePage = () => {
       <AboutMe />
       <Timeline />
       <Carousel />
-      <p className="copyright">© 2024 by Chenyi Wang</p>
+      <p className="copyright">© 2025 by Chenyi Wang</p>
     </div>
   );
 };
