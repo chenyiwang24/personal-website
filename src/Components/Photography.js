@@ -17,7 +17,6 @@ const Photography = () => {
     <div className={`grad-portfolio-container ${isLoaded ? "fade-in" : ""}`}>
       <p className="grad-portfolio-title">Grad Portfolio</p>
       <Carousel />
-      <hr className="divider" />
       <p className="description">
         I run a small gig for senior portraits. For inquiries and bookings,
         please email!

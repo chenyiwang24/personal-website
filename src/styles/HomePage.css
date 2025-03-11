@@ -56,13 +56,15 @@
   height: 100%;
   background-color: white;
   opacity: 1;
-  z-index: 1000; /* Make sure it sits on top of other content */
+  z-index: 1000;
+  /* Make sure it sits on top of other content */
 }
 
 @keyframes fadeOut {
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
@@ -75,23 +77,29 @@
 
 /* Horizontal divider style */
 .divider {
-  max-width: 800px; /* Adjust width as needed */
-  margin: 3rem auto; /* Add space around the line */
+  max-width: 800px;
+  /* Adjust width as needed */
+  margin: 3rem auto;
+  /* Add space around the line */
   border: none;
-  border-top: 2px solid #ccc; /* Adjust color and thickness */
-  opacity: 0.7; /* Optional: Makes it less prominent */
+  border-top: 2px solid #ccc;
+  /* Adjust color and thickness */
+  opacity: 0.7;
+  /* Optional: Makes it less prominent */
 }
 
 /* Adjustments for mobile */
 @media (max-width: 768px) {
   .divider {
-    margin: 3rem 1rem; /* Add left and right space on mobile */
+    margin: 3rem 1rem;
+    /* Add left and right space on mobile */
   }
 }
 
 @media (max-width: 480px) {
   .divider {
-    margin: 3rem 2rem; /* Add even more left and right space on smaller screens */
+    margin: 3rem 2rem;
+    /* Add even more left and right space on smaller screens */
   }
 }
 

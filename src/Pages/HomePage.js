@@ -17,6 +17,7 @@ import NavBar from "../components/NavBar";
 import AboutMe from "../components/AboutMe";
 import Timeline from "../components/Timeline";
 import Carousel from "../components/Carousel";
+import Strava from "../components/Strava";
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -79,7 +80,7 @@ const HomePage = () => {
                   size="1.9vw"
                   margin="0.5vw"
                 />
-                <SocialIcon
+                <SocialIcon 
                   iconDefault={email}
                   iconHover={emailHover}
                   link="mailto:chenyi@utexas.edu"
@@ -99,6 +100,7 @@ const HomePage = () => {
       <AboutMe />
       <Timeline />
       <Carousel />
+      <Strava />
       <p className="copyright">© 2025 by Chenyi Wang</p>
     </div>
   );

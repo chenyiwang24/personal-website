@@ -105,8 +105,7 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-      <hr style={{ marginTop: "5rem" }} className="divider" />
-      <p className="description">
+      <p style={{ marginTop: "2rem" }} className="description">
         Based in Austin, TX, I specialize in senior graduation portraits,
         professional headshots, and event photography, delivering high-quality
         and personalized visual storytelling for every occasion.

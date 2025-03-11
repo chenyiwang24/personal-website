@@ -1,0 +1,35 @@
+/* Individual section */
+.strava-section {
+  opacity: 0;
+  transform: translateY(20px);
+  display: flex;
+  justify-content: center;
+  transition: all 0.8s ease-in-out;
+  gap: 1rem;
+  align-items: center;
+}
+
+.strava-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.strava-section.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.strava-section-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.strava-section-content {
+  font-size: 1.2rem;
+  text-align: left;
+  max-width: 350px;
+  color: #666;
+}
