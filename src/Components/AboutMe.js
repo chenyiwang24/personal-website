@@ -37,6 +37,9 @@ const AboutMe = () => {
                 building impactful software solutions that combine creativity and
                 functionality.`,
     },
+    {
+      title: "Weekly Marathon Training Progress",
+    },
   ];
 
   return (
@@ -68,11 +71,31 @@ const AboutMeSection = ({ section }) => {
       className={`aboutme-section ${inView ? "visible" : "hidden"}`}
     >
       <h2 className="aboutme-section-title">{section.title}</h2>
+
+      {/* Insert Strava embed if this is the "training for" section */}
+      {section.title === "Weekly Marathon Training Progress" && (
+        <div style={{ display: "flex", justifyContent: "center", margin: "3rem 0 2rem" }}>
+          <div style={{ paddingTop: "-5px", paddingBottom: "5px", borderRadius: "12px", overflow: "hidden", boxShadow: "0px 2px 10px 2px rgba(0, 0, 0, 0.1)" }}>
+            <iframe
+              title="Strava Activity Summary"
+              height="156"
+              width="350"
+              frameBorder="0"
+              allowTransparency="true"
+              scrolling="no"
+              src="https://www.strava.com/athletes/131269143/activity-summary/ea9514edb8c2cea12f47943444a14cc3538e528d"
+            ></iframe>
+          </div>
+        </div>
+      )}
+
       <p className="aboutme-section-content">{section.content}</p>
-      <hr
-        style={{ marginTop: "5rem", marginBottom: "1rem" }}
-        className="divider"
-      />
+      {section.title !== "Hi, I’m Chenyi!" && (
+          <hr
+          style={{ marginTop: "4rem", marginBottom: "0rem" }}
+          className="divider"
+        />
+      )}
     </div>
   );
 };
