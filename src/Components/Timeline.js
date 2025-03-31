@@ -9,9 +9,16 @@ const Timeline = () => {
 
   const timelineEvents = [
     {
-      date: "June 2025 - Present",
-      title: "Incoming Software Engineer Intern",
-      description: "Incoming Software Engineer Intern (TIP) - Summer 2025",
+      date: "August 2025 - November 2025",
+      title: "Software Engineer Intern",
+      description: "Incoming Software Development Engineer Intern (SDE) - Fall 2025",
+      company: "Amazon",
+      image: require("./../assets/Logos/amazon.png"),
+    },
+    {
+      date: "June 2025 - August 2025",
+      title: "Software Engineer Intern",
+      description: "Incoming Technology Internship Program (TIP) - Summer 2025",
       company: "Capital One",
       image: require("./../assets/Logos/capitalOne.png"),
     },
