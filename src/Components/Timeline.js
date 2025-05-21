@@ -18,14 +18,14 @@ const Timeline = () => {
     {
       date: "June 2025 - August 2025",
       title: "Software Engineer Intern",
-      description: "Incoming Technology Internship Program (TIP) Intern - Summer 2025",
+      description: "Financial Services Technology",
       company: "Capital One",
       image: require("./../assets/Logos/capitalOne.png"),
     },
     {
       date: "May 2024 - August 2024",
       title: "Software Developer Intern",
-      description: "Full-Stack iOS Development",
+      description: "Job Board and Talent Acquisition",
       company: "Paycom",
       image: require("./../assets/Logos/paycom.png"),
     },
