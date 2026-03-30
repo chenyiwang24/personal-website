@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5909579.css",
-    "main.js": "/static/js/main.66872b60.js",
+    "main.css": "/static/css/main.c6feba32.css",
+    "main.js": "/static/js/main.ded938b7.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/headshot.png": "/static/media/headshot.3da2742212aeea4f4cbe.png",
     "static/media/amelie2.jpg": "/static/media/amelie2.6cebe8129dfb167f1dae.jpg",
     "static/media/hookem.jpg": "/static/media/hookem.03ac470cc3e373ff3ad1.jpg",
     "static/media/amelie3.jpg": "/static/media/amelie3.66be7c5cc00454d1e99f.jpg",
     "static/media/amelie4.jpg": "/static/media/amelie4.394d2d77dd5c4029bf8d.jpg",
     "static/media/amelie.jpg": "/static/media/amelie.feed75b99ff626561595.jpg",
     "static/media/julia.jpg": "/static/media/julia.2bba6623af77e2fb79c2.jpg",
-    "static/media/headshot.png": "/static/media/headshot.1d0acfc393862fa22f09.png",
     "static/media/kara.jpg": "/static/media/kara.c3298687ee1219e0357b.jpg",
     "static/media/hookem2.jpg": "/static/media/hookem2.4fb881fa4fed9fd05fef.jpg",
+    "static/media/Amazon-Ember-MediumItalic.ttf": "/static/media/Amazon-Ember-MediumItalic.b79546398a1012faa142.ttf",
+    "static/media/Amazon-Ember-Medium.ttf": "/static/media/Amazon-Ember-Medium.803b0c95226591a84d03.ttf",
     "static/media/capitalOne.png": "/static/media/capitalOne.45166d0f1d456d88ff61.png",
+    "static/media/AmazonEmber_ThIt.ttf": "/static/media/AmazonEmber_ThIt.fcb7491c4c988ca1701d.ttf",
+    "static/media/AmazonEmber_Rg.ttf": "/static/media/AmazonEmber_Rg.49d0b49cda15e913fdf2.ttf",
+    "static/media/AmazonEmber_Bd.ttf": "/static/media/AmazonEmber_Bd.4c4b1f27a546fbfe585f.ttf",
+    "static/media/AmazonEmber_RgIt.ttf": "/static/media/AmazonEmber_RgIt.145fea99cfd665457e6d.ttf",
+    "static/media/AmazonEmber_LtIt.ttf": "/static/media/AmazonEmber_LtIt.7091185d0b68cd673617.ttf",
+    "static/media/AmazonEmber_BdIt.ttf": "/static/media/AmazonEmber_BdIt.5aa78750eb0593fede9c.ttf",
+    "static/media/AmazonEmber_Th.ttf": "/static/media/AmazonEmber_Th.5b557deb80f828b8ed3b.ttf",
+    "static/media/AmazonEmber_Lt.ttf": "/static/media/AmazonEmber_Lt.327fc56aff92da01c853.ttf",
+    "static/media/AmazonEmber_He.ttf": "/static/media/AmazonEmber_He.7d7135d2abf99880fd2b.ttf",
+    "static/media/AmazonEmber_HeIt.ttf": "/static/media/AmazonEmber_HeIt.3f7edf0aa7fed55a1032.ttf",
     "static/media/paycom.png": "/static/media/paycom.1da8c71e298bc76e6d33.png",
     "static/media/emailIcon.png": "/static/media/emailIcon.f249f0dca6e3cd9d0070.png",
     "static/media/ambassadors.png": "/static/media/ambassadors.64e4920c50f68cfa8fda.png",
@@ -30,12 +42,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c5909579.css.map": "/static/css/main.c5909579.css.map",
-    "main.66872b60.js.map": "/static/js/main.66872b60.js.map",
+    "main.c6feba32.css.map": "/static/css/main.c6feba32.css.map",
+    "main.ded938b7.js.map": "/static/js/main.ded938b7.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5909579.css",
-    "static/js/main.66872b60.js"
+    "static/css/main.c6feba32.css",
+    "static/js/main.ded938b7.js"
   ]
 }
