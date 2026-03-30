@@ -1,13 +1,84 @@
+/* Amazon Ember */
 @font-face {
-  font-family: "SF Pro Semibold";
-  src: url("./assets/Fonts/SF-Pro-Display-Semibold.otf") format("opentype");
-  font-weight: 200;
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_Th.ttf") format("truetype");
+  font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-    font-family: "SF Pro";
-    src: url("./assets/Fonts/SF-Pro-Display-Regular.otf") format("opentype");
-    /* font-weight: 200; */
-    font-style: normal;
-  }
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_ThIt.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_Lt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_LtIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_Rg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_RgIt.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/Amazon-Ember-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/Amazon-Ember-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_Bd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_BdIt.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_He.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../assets/Fonts/Ember/AmazonEmber_HeIt.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}

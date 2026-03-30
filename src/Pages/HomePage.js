@@ -57,7 +57,7 @@ const HomePage = () => {
                 <br />
                 Wang
               </h1>
-              <h2 className="subtitle-text">Software Engineer</h2>
+              <h2 className="subtitle-text">SDE I @ Amazon</h2>
               <div className="icon-row">
                 <SocialIcon
                   iconDefault={linkedin}
@@ -101,7 +101,7 @@ const HomePage = () => {
       <Timeline />
       <Carousel />
       <Strava />
-      <p className="copyright">© 2025 by Chenyi Wang</p>
+      <p className="copyright">© 2026 by Chenyi Wang</p>
     </div>
   );
 };

@@ -30,11 +30,7 @@ const AboutMe = () => {
 
   const content = {
     title: "Hi, I’m Chenyi!",
-    content: `I am a third-year Computer Science student at the
-              University of Texas at Austin, with a passion for software
-              engineering, problem-solving, and lifelong learning. I thrive on
-              building impactful software solutions that combine creativity and
-              functionality.`,
+    content: `I’m a Software Development Engineer at Amazon and a recent Computer Science graduate from the University of Texas at Austin. I’m passionate about building software that is both thoughtfully designed and highly scalable.`,
   };
 
   return (
